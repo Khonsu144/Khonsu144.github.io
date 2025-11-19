@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    max-width: 1920px;
+}
+
+.header__container { 
+    max-width: 1110px;
+    margin: auto;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.header__logo {
+    margin-right: 80px;   
+}
+
+
+.header__search {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+}
+
+.header__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 58px;
+}
+
+.header__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #121723;
+    cursor: pointer;
+}
+
+.main__container{
+    max-width: 1920px;
+ 
+}
+
+.hero{
+    max-width: 1110px;
+    display: flex;
+    margin: auto;
+}
+
+.radio__wawe{
+    font-size: 60px;
+    color: #121723;
+}
+
+.radio__container{
+    max-width: 635px;
+
+}
+
+.text__wawe{
+    font-size: 16px;
+    color: #121723;
+    
+}
+
+.wawe__button{
+    margin-top: 45px;
+    border-radius: 40px;
+    background-color: #6D31EE;
+    width: 245px;
+    height: 70px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.wawe__container{
+    max-width: 1100px;
+    display: flex;
+    margin: auto;
+    padding-bottom: 90px;
+}
+
+.microphone{
+padding-left: 125px;
+ /* width: 256px;
+ height: 262px; */
+}
+
+.back_col{
+    /* padding-left: 405px; */
+    max-width: 1110px;
+    height: 940px;
+    position: relative;
+    margin: auto;
+
+
+}
+
+.podcasts{
+    background-color: rgb(217, 213, 213);
+}
+
+
+
+.podcast{
+    position: absolute;
+    margin-top: 6px;
+    
+}
+.podcast_text{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.cont{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 1110px;
+
+}
+
+.item{
+    display: flex;
+    width: 540px;
+    height: 140px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+
+.img1{
+    width: 112px;
+    height: 140px;
+}
+.text{
+    margin-left: 30px;
+}
+.time{
+    margin-top: 40px;
+    margin-bottom: -8px;
+    font-size: 12px;
+}
+.mesto{
+    margin-bottom: -4px;
+    font-size: 20px;
+}
+.avtor{
+    font-size: 16px;
+}
